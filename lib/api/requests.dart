@@ -7,8 +7,8 @@ const String version = '3';
 const String leagueGroup = 'eu';
 const String languageCode = 'en';
 const String format = 'json';
-const String apiKey = 'k7wdwngyc7e9d485wus9zg5a';
-//const String apiKey = 'xpg55ybqvq6rrf68wfmrebtu';
+const String apiKey = {your-api-key};
+
 class Requests {
 
   Future<dynamic> getDailyResults(DateTime date) async {
