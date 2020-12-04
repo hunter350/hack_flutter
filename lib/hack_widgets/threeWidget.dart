@@ -18,7 +18,7 @@ class ThreeWidget extends StatefulWidget {
 
 class _ThreeWidgetState extends State<ThreeWidget> {
   @override
-  Widget build(BuildContext context) {
+ Widget build(BuildContext context) {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
